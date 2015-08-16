@@ -1,0 +1,50 @@
+* {
+	font-family: verdana;
+}
+
+.login {
+	border: 1px solid black;
+	width: 410px;
+	height: 120px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+table#login td {
+	padding: 5px;
+}
+
+#error {
+	background-color: #FFE6E6;
+	color: #FF3333;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border:1px solid black;
+}
+
+#nav {
+	text-align: center;
+	font-size: 24px;
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #E6F5E6;
+
+}
+
+#nav, a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav:hover {
+	background-color: #66C266;
+}
+
+#logout a {
+	text-decoration: none;
+	padding: 5px;
+	float: right;
+	font-weight: bold;
+}
